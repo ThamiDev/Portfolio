@@ -36,6 +36,27 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
+        position: relative;
+        img {
+            z-index: 2;
+        }
+        #cercle {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            border-radius: 250px;
+            background: #292931;
+            position: absolute;
+            margin-top: auto;
+            margin-bottom: auto;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        #cercle:hover {
+            background: #f53b4134;
+            transition: .8s;
+        }
     }
     .right-container {
         height: 90%;

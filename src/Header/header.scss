@@ -11,15 +11,25 @@
         display: flex;
         list-style-type: none;
         .item-header {
-            margin-left: 3.5em;
+            margin-right: 3.5em;
             font-size: 13px;
             font-weight: 600;
         }
+        .item-header:hover {
+            color: #f53b41;
+            cursor: pointer;
+            transition: .4s;
+        }
         .icons-header {
             border-left: 1px solid white;
-            margin-left: 1em;
+            margin-right: 1em;
             .icon-header {
                 margin-left: 1em;
+            }
+            .icon-header:hover {
+                color: #f53b41;
+                cursor: pointer;
+                transition: .4s;
             }
         }
     }

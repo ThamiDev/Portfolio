@@ -1,0 +1,64 @@
+.Home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .left-container {
+        height: 90%;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        h1 {
+            font-size: 45px;
+        }
+        hr {
+            margin: 1em 0;
+            width: 30%;
+        }
+        .button-left {
+            width: 40%;
+            text-align: center;
+            margin-top: 2.5em;
+            border: 1px solid #f53b40;
+            background-color: none;
+            color: #f53b40;
+            padding: 0.6em 0;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+    .middle-container {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .right-container {
+        height: 90%;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+
+        h3 {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin: 0.4em 0 0.6em 0;
+            line-height: 1.1em;
+        }
+        button {
+            margin-top: 1em;
+            color: #f53b41;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+}

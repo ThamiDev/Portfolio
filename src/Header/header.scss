@@ -1,0 +1,26 @@
+.Header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    .items-header {
+        width:auto;
+        display: flex;
+        list-style-type: none;
+        .item-header {
+            margin-left: 3.5em;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .icons-header {
+            border-left: 1px solid white;
+            margin-left: 1em;
+            .icon-header {
+                margin-left: 1em;
+            }
+        }
+    }
+}
